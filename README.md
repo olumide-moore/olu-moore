@@ -27,7 +27,7 @@ Currently, two official plugins are available:
 
 
 ## Deploying React to github
-- Create a repository and push your project into it. 
+- Create a public repository and push your project into it. 
 - In the React directory, run `npm install gh-pages --save-dev`
 - In the package.json file, add ```homepage: http://{github-username}.github.io/{repo-name}```.
 - Add this to the scripts
@@ -48,7 +48,13 @@ import { defineConfig } from 'vite';
 export default defineConfig({
   base: '/<repository-name>/', // Replace <repository-name> with your GitHub repo name
 });
+```
 
+- After making this change, rebuild and redeploy:
+```bash
+Copy code
+npm run build
+npm run deploy
 ```
 
 https://blog.logrocket.com/deploying-react-apps-github-pages/
