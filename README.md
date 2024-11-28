@@ -29,7 +29,7 @@ Currently, two official plugins are available:
 ## Deploying React to github
 - Create a repository and push your project into it. 
 - In the React directory, run `npm install gh-pages --save-dev`
-- Add "hompage": "http://[domainname].github.io/[repository name]
+- In the package.json file, add ```homepage: http://{github-username}.github.io/{repo-name}```.
 - Add this to the scripts
 ```bash
 "predeploy" : "npm run build",
