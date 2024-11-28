@@ -36,6 +36,19 @@ Currently, two official plugins are available:
 "build" : "gh-pages -d build",
 
 ```
-- After adding and pushing the changes, run `npm run deploy`, this will make the deployment to the gh-pages branch. 
+- After adding and pushing the changes, run `npm run deploy`, this will make the deployment to the gh-pages branch.
+
+
+If still not working
+- Open your vite.config.js file and ensure the base property matches your repository name:
+
+```bash
+import { defineConfig } from 'vite';
+
+export default defineConfig({
+  base: '/<repository-name>/', // Replace <repository-name> with your GitHub repo name
+});
+
+```
 
 https://blog.logrocket.com/deploying-react-apps-github-pages/
