@@ -80,7 +80,7 @@ const Hero = () => {
               </div>
               <motion.a
                 variants={childVariants}
-                href="/Olumide Oluwole-Moore CV.pdf"
+                href="Olumide%20Oluwole-Moore%20CV.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
