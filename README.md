@@ -1,15 +1,3 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-
-
-
 
 ## Deploying React steps
 
@@ -39,7 +27,7 @@ Currently, two official plugins are available:
 - After adding and pushing the changes, run `npm run deploy`, this will make the deployment to the gh-pages branch.
 
 
-If still not working
+If using react + vite
 - Open your vite.config.js file and ensure the base property matches your repository name:
 
 ```bash
@@ -58,3 +46,11 @@ npm run deploy
 ```
 
 https://blog.logrocket.com/deploying-react-apps-github-pages/
+
+
+
+### To deploy to a github custom domain
+Cloudfare offers free domain. Other cheap providers are GoDaddy and Namecheap
+- Ensure the CNAME record on your domain service provider points to the GitHub URL of the deployed website (in the case of this example, nelsonmic.github.io/logdeploy/). To do so, navigate to the DNS management page of the domain service provider and add a CNAME record that points to username.github.io where username is your GitHub username. (An A record points a name to an IP . A CNAME record can point a name to another CNAME or to an A record.)
+
+https://www.youtube.com/watch?v=VRgTYJyN9pg&ab_channel=KnowledgeBase
