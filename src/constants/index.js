@@ -8,7 +8,7 @@ import project4 from "../assets/projects/project-4.png";
 
 // export const DESCRIPTION = `A dedicated software developer with a proven track record of building impactful, user-centric solutions. With First Class Honours in Computer Science and four years of hands-on experience, I have honed my skills in diverse programming languages and frameworks such as Python, JavaScript, Django, and React. My passion lies in developing innovative applications that enhance efficiency, provide valuable insights, and deliver exceptional user experiences.`;
 
-export const DESCRIPTION = `A recent Computer Science graduate with First Class Honours and a passion for building robust, scalable, and user-friendly applications. With four years of practical experience, I have contributed to projects across various industries, applying my expertise in Python, JavaScript, Django, and FastAPI. My commitment to continuous learning and delivering high-quality solutions drives my enthusiasm for innovation and problem-solving. I thrive in collaborative environments and enjoy leveraging technology to make a positive impact.`;
+export const DESCRIPTION = `A recent Computer Science graduate with First Class Honours, focused on designing and delivering robust, scalable, and user-centric systems. With four years of practical experience, I have worked on diverse projects, applying my expertise in modern technologies like Python, JavaScript, Django, React and cloud systems. My commitment to continuous learning and delivering high-quality solutions is driven by my dedication to meeting customer needs. I thrive in collaborative environments and enjoy leveraging technology to solve problems and create a positive impact.`;
 
 export const DETAILS = {
   address: "London, UK",
