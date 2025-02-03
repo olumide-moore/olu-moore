@@ -24,7 +24,7 @@ export const EXPERIENCES = [
     role: "Software Developer",
     company: "Ruane Construction and Design Consultancy",
     description: `Led digital transformation initiatives, developing systems to automate operations and improve efficiency. Created tools for intricate building design and energy calculations, saving significant time and resources.`,
-    technologies: ["Python", "PyQt5", "Pandas", "Microsoft Access"],
+    technologies: ["Python", "PyQt5", "Pandas", "React", "Nodejs", "SQL", "MongoDB"],
   },
   {
     year: "March 2022 - July 2022",
