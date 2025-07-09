@@ -65,14 +65,14 @@ const Hero = () => {
             </motion.p>
             <div className="w-3/4 justify-center flex flex-wrap items-center gap-x-8">
               <div className="flex flex-wrap items-center justify-center">
-                <div class="flex items-center space-x-2">
-                  <div class="relative">
+                <div className="flex items-center space-x-2">
+                  <div className="relative">
                     <img
                       src={profilePic2}
                       alt="Pic"
-                      class="w-10 h-10 rounded-full"
+                      className="w-10 h-10 rounded-full"
                     />
-                    <span class="absolute bottom-0 right-0 block h-3 w-3 rounded-full bg-green-500 ring-2 ring-green-100 "></span>
+                    <span className="absolute bottom-0 right-0 block h-3 w-3 rounded-full bg-green-500 ring-2 ring-green-100 "></span>
                   </div>
                 </div>
 
