@@ -3,7 +3,7 @@
 // import project3 from "../assets/projects/project-3.webp";
 import project1 from "../assets/projects/project-1.png";
 import project2 from "../assets/projects/project-2.png";
-import project3 from "../assets/projects/project-3.jpg";
+import project3 from "../assets/projects/project-3.png";
 import project4 from "../assets/projects/project-4.png";
 
 // export const DESCRIPTION = `A dedicated software developer with a proven track record of building impactful, user-centric solutions. With First Class Honours in Computer Science and four years of hands-on experience, I have honed my skills in diverse programming languages and frameworks such as Python, JavaScript, Django, and React. My passion lies in developing innovative applications that enhance efficiency, provide valuable insights, and deliver exceptional user experiences.`;
@@ -15,7 +15,7 @@ export const DETAILS = {
   phoneNo: "07415899712",
   email: "olumide.moore2817@gmail.com",
   github: "https://github.com/olumide-moore",
-  linkedin: "https://www.linkedin.com/in/olu-oluwole-moore/"
+  linkedin: "https://www.linkedin.com/in/olu-oluwole-moore/",
 };
 
 export const EXPERIENCES = [
@@ -24,7 +24,15 @@ export const EXPERIENCES = [
     role: "Software Developer",
     company: "Ruane Construction and Design Consultancy",
     description: `Led digital transformation initiatives, developing systems to automate operations and improve efficiency. Created tools for intricate building design and energy calculations, saving significant time and resources.`,
-    technologies: ["Python", "PyQt5", "Pandas", "React", "Nodejs", "SQL", "MongoDB"],
+    technologies: [
+      "Python",
+      "PyQt5",
+      "Pandas",
+      "React",
+      "Nodejs",
+      "SQL",
+      "MongoDB",
+    ],
   },
   {
     year: "March 2022 - July 2022",
@@ -44,6 +52,31 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
+    title: "RiverIsland E-commerce Website",
+    image: project4,
+    description:
+      "A full-stack clone e-commerce website inspired by River Island.",
+    technologies: [
+      "React",
+      "Redux Toolkit",
+      "Node.js",
+      "Express",
+      "MongoDB",
+      "TailwindCSS",
+      "AWS services",
+      "GoDaddy",
+    ],
+    url: "https://riverisland.olumide.co.uk/",
+  },
+  {
+    title: "Room Decor E-commerce Website",
+    image: project2,
+    description:
+      "A responsive e-commerce platform with integrated inventory management and Agile-driven development.",
+    technologies: ["Vaadin", "Spring Boot", "MySQL", "Java", "Bootstrap"],
+    url: "https://dreamnest.olumide.co.uk/",
+  },
+  {
     title: "Air Quality Web Interface",
     image: project1,
     description:
@@ -57,48 +90,28 @@ export const PROJECTS = [
       "Tailwind CSS",
       "AWS EC2",
     ],
-    url: "https://github.com/olumide-moore/AirQualityAnalysis"
+    url: "https://github.com/olumide-moore/AirQualityAnalysis",
   },
   {
-    title: "Room Decor E-commerce Website",
-    image: project2,
-    description:
-      "A responsive e-commerce platform with integrated inventory management and Agile-driven development.",
-    technologies: ["Vaadin", "Spring Boot", "MySQL", "Java", "Bootstrap"],
-    url: "https://github.com/olumide-moore/dreamnest"
-  },
-  {
-    title: "React App Hosting with AWS S3 and CloudFront",
+    title: "Lift and Shift Migration",
     image: project3,
 
     description:
-      "Designed and deployed a React web application using AWS S3 for static hosting and CloudFront for content delivery, achieving low-latency performance for global users.",
+      "Designed and deployed a simulated lift and shift migration on AWS using ALB, Auto Scaling Groups, and EC2-based Tomcat with secure routing via ACM and GoDaddy DNS.",
     technologies: [
-      "AWS S3",
-      "CloudFront",
-      "Route 53",
-      "React.js",
-      "JavaScript",
-      "HTML/CSS",
+      "Amazon EC2",
+      "Beanstalk",
+      "S3",
+      "RDS",
+      "ElastiCache",
+      "CloudWatch",
+      "Vagrant",
+      "Linux CentOS & Ubuntu",
+      "Docker",
+      "Jenkins",
+      "Git",
+      "Bash Scripting",
     ],
-    url: "https://github.com/olumide-moore/AWS"
-  },
-  {
-    title: "Custom VPC Design and EC2 Deployment",
-    image: project4,
-
-    description:
-      "Architected a custom Virtual Private Cloud (VPC) with public and private subnets to host scalable AWS services securely.",
-    technologies: [
-      "AWS VPC",
-      "EC2",
-      "Internet Gateway",
-      "NAT Gateway",
-      "Route tables",
-      "Security Groups",
-    ],
-    url: "https://github.com/olumide-moore/AWS"
+    url: "https://drive.google.com/file/d/1nJNfRUflDx0pZYXCg_-4g4JHszKIoo6n/view",
   },
 ];
-
-
